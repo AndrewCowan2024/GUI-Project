@@ -21,6 +21,7 @@ def enter():
 
 
 login=Tk()
+
 login.title("Secret Password")
 login.geometry("400x400")
 login.resizable(False,False)

@@ -20,16 +20,16 @@ def human():
     pygame.mixer.music.play(loops=0)
 def deer():
     #load in sound track
-    pygame.mixer.music.load("no.wav")
+    pygame.mixer.music.load("sus.mp3")
 
     pygame.mixer.music.set_volume(0.2)
 
     #play the sound
-    pygame.mixer.music.play(loops=0)
+    pygame.mixer.music.play(loops=3)
 
 def crowd():
     #load in sound track
-    pygame.mixer.music.load("bird.wav")
+    pygame.mixer.music.load("milkshake.mp3")
 
     pygame.mixer.music.set_volume(0.2)
 
@@ -38,7 +38,7 @@ def crowd():
 
 def ding():
     #load in sound track
-    pygame.mixer.music.load("car2.wav")
+    pygame.mixer.music.load("are.mp3")
 
     pygame.mixer.music.set_volume(0.2)
 
@@ -47,12 +47,12 @@ def ding():
 
 def crash():
     #load in sound track
-    pygame.mixer.music.load("alarm.wav")
+    pygame.mixer.music.load("ba.mp3")
 
     pygame.mixer.music.set_volume(0.2)
 
     #play the sound
-    pygame.mixer.music.play(loops=0)
+    pygame.mixer.music.play(loops=100000)
 
 def bigBang():
     #load in sound track
@@ -65,16 +65,16 @@ def bigBang():
 
 def bidDrama():
     #load in sound track
-    pygame.mixer.music.load("ding.wav")
+    pygame.mixer.music.load("dab.mp3")
 
     pygame.mixer.music.set_volume(0.2)
 
     #play the sound
-    pygame.mixer.music.play(loops=0)
+    pygame.mixer.music.play(loops=5)
 
 def smart():
     #load in sound track
-    pygame.mixer.music.load("glitch.wav")
+    pygame.mixer.music.load("pika.mp3")
 
     pygame.mixer.music.set_volume(0.2)
 
@@ -83,7 +83,7 @@ def smart():
 
 def tv():
     #load in sound track
-    pygame.mixer.music.load("car bomb.wav")
+    pygame.mixer.music.load("hey.mp3")
 
     pygame.mixer.music.set_volume(0.2)
 
@@ -115,7 +115,7 @@ bidDrama1.pack()
 ding1=Button(sound,text="play sound",bg="#2e2e2e",fg="limegreen",activebackground="#2e2e2e",activeforeground="limegreen", command=ding)
 ding1.pack()
 
-deer1=Button(sound,text="play sound",bg="#2e2e2e",fg="limegreen",activebackground="#2e2e2e",activeforeground="limegreen", command=deer)
+deer1=Button(sound,text="sus",bg="#2e2e2e",fg="limegreen",activebackground="#2e2e2e",activeforeground="limegreen", command=deer)
 deer1.pack()
 
 crash1=Button(sound,text="play sound",bg="#2e2e2e",fg="limegreen",activebackground="#2e2e2e",activeforeground="limegreen", command=crash)
